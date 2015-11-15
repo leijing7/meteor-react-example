@@ -1,6 +1,10 @@
 # Meteor + React demo
 This is to demonstrate using Meteor, React, FlowRouter and React-Layout to fetch Github data via its API. This demo also uses Semantic UI to beautify the view.
 
+Clone or download this repo and just type <code>meteor</code> in the terminal under the repo folder, then visit the localhost:3000 in your browser, you will get something like below image.
+
+![localhost](http://7xnfkz.com1.z0.glb.clouddn.com/meteorReact.png)
+
 I wrote this demo on Mac OS X. You might need to change some commands in your platform if it is different.
 
 #### 1. Install Meteor.
@@ -51,4 +55,4 @@ Remove autopublish
 #### 6. Let's code
 Put null in Meteor.Collection as <code> ClientRepoInfo = new Meteor.Collection(null);</code> will create a local only collection in the minimongo of Browser.
 
-Other code in this [repo]().
+Other code in this [repo](https://github.com/leijing7/meteor-react-example).
