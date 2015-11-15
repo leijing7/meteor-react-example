@@ -37,8 +37,8 @@ RepoInfoData = React.createClass({
           <div className='row' style={infoStyle}>
             <div className="eight wide column">
               <h1>{this.data.repoInfo.name}
-                (by
-                {this.data.repoInfo.author})</h1>
+                (by &nbsp;
+                {this.data.repoInfo.owner.login})</h1>
               <p>
                 <b>
                   Dscription: &nbsp;
