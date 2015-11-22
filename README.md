@@ -53,6 +53,10 @@ Remove autopublish
 <code>meteor remove autopublish</code>
 
 #### 6. Let's code
-Put null in Meteor.Collection as <code> ClientRepoInfo = new Meteor.Collection(null);</code> will create a local only collection in the minimongo of Browser.
+One tip. Put null in Meteor.Collection as <code> ClientRepoInfo = new Meteor.Collection(null);</code> will create a local only collection in the minimongo of Browser.
+
+Below image is the simple structure of the demo which mimics the Flux data flow. I think this might help others to understand it easier.
+
+![flow](http://7xnfkz.com1.z0.glb.clouddn.com/react.png)
 
 Other code in this [repo](https://github.com/leijing7/meteor-react-example).
